@@ -1,0 +1,17 @@
+﻿<Window x:Class="PixelBot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PixelBot"
+        mc:Ignorable="d"
+        Title="Pixel Bot" FontSize="16" Height="220" Width="400" ResizeMode="NoResize">
+    <Grid Background="#FF212121">
+        <TextBox Name="HexOfPixel" Text="#ff00ff" Width="200" Height="50" Background="#FFDDDDDD" Margin="0,30,0,0" Padding="0,15,0,0"
+                   VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" FontSize="16" Grid.ColumnSpan="2" />
+        
+        <Button Name="ButtonSearchPixel" Click="OnButtonSeachPixelClick" Content="Search pixel" HorizontalAlignment="Center" Margin="0,0,0,40" 
+                VerticalAlignment="Bottom" Width="200" Height="50" FontSize="16" Background="#FFD2B6B6" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
